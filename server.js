@@ -1,11 +1,14 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+const helmet = require('helmet');
 const express = require('express');
 
 const app = express();
 
 const PORT = process.env.PORT || 3000;
+
+app.use(helmet());
 
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "public", "index.html"));
