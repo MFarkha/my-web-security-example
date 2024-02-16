@@ -1,4 +1,4 @@
-## This is a small example of security practices of Node.js backend development: JWT, OAuth, SSL/TLS
+## This is a small example of security practices of Node.js backend development: [JWT](https://jwt.io/), [OAuth](https://www.oauth.com/), SSL/TLS
 
 ### Prerequisites
 1. Generate self-signed certificate for SSL (openssl should be installed prior):
