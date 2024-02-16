@@ -16,8 +16,8 @@
     - `npm install passport-google-oauth20`
 
 5. User session management
-    - server-side: [express-session] (https://expressjs.com/en/resources/middleware/session.html)
-    - client-side: [cookie-session] (https://expressjs.com/en/resources/middleware/cookie-session.html)
+    - server-side: [express-session](https://expressjs.com/en/resources/middleware/session.html)
+    - client-side: [cookie-session](https://expressjs.com/en/resources/middleware/cookie-session.html)
 
 ### How to deploy and start the app
 1. Install dependencies:
