@@ -1,6 +1,8 @@
 ## This is a small example of security practices of Node.js backend development: [JWT](https://jwt.io/), [OAuth](https://www.oauth.com/), SSL/TLS
 
 ### Prerequisites
+0. Familiarize yourself with [NodeJS security cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Nodejs_Security_Cheat_Sheet.html)
+
 1. Generate self-signed certificate for SSL (openssl should be installed prior):
     - `openssl req -x509 -newkey rsa:4096 -nodes -keyout key.pem -out cert.pem -days 365`
     - `key.pem` - name of a key file
